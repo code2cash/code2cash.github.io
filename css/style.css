@@ -5,11 +5,36 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header,
 footer {
     background-color: #f4f4f4;
     padding: 1rem;
-    text-align: center;
+}
+
+main {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #0066cc;
 }
