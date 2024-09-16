@@ -1,0 +1,8 @@
+---
+layout: layout.njk
+title: Welcome to My Eleventy Site
+---
+
+# Hello, World!
+
+This is my first Eleventy page. You can write content here using Markdown.
